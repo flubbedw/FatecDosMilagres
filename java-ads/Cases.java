@@ -25,7 +25,9 @@ public class Main{
        return scanner.nextInt();
     }
     
-    
+     static void estatisticas (int[] lancamentos, int[] contagem){
+       
+     }
      public static void main(String[] args){
         scanner = new Scanner(System.in);
         int opcao;
@@ -46,6 +48,8 @@ public class Main{
                 int[] lancamentos = new int[numLancamentos];//instancia
                 geraVetor(lancamentos, 6, 1);
                 exibeVetor(lancamentos, "Rolam os dados");
+                int[] contagem = new int[7];
+                estatisticas (lancamentos, contagem);
                 break;
             case 3:
                 System.out.println("Obrigado(a), volte sempre!");
@@ -59,4 +63,4 @@ public class Main{
         scanner.close();
         
         }
-} 
+}
