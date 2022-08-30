@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Mega {
+public class Megasena {
     public static void main (String []  args) {
         Random random = new Random();
         int  sena [] = new int [6];
