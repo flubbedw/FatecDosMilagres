@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main{
+public class Dados{
 
     static void geraVetor (int[] v, int limite, int acrescimo) {
         Random random = new Random();

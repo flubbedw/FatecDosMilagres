@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main{
+public class Cases{
     static Scanner scanner;
     
     
