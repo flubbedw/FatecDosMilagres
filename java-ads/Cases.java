@@ -27,7 +27,7 @@ public class Cases{
     
      static void estatisticas (int[] lancamentos, int[] contagem){
         for (int i=0; i<lancamentos.length; i++){
-            contagem[lancamentos[i]}++;
+            contagem[lancamentos[i]]++;
         }
      }
      static boolean buscaSimples (int[] v, int x){
