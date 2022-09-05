@@ -26,6 +26,6 @@ import java.util.Scanner;
             lancamentos = new int[numLancamentos];
             geraVetor(lancamentos, 6, 1);
             exibeVetor (lancamentos, "Rolam os dados");
+            scanner.close();
         }
-
-} 
+}

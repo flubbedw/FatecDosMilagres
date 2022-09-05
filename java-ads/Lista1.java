@@ -32,6 +32,6 @@ class Lista1 {
       System.out.println("Valor não encontrado na lista");
       
   
-    
+      scanner.close();
   }
 }
