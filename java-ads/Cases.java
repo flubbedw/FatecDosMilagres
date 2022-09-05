@@ -17,7 +17,7 @@ public class Cases{
         System.out.println();
     
 }
-    static int menu() {
+    static int menu(){
         System.out.println ("Escolha a sua acao:");
         System.out.println (" 1 - Jogar na Megasena");
         System.out.println (" 2 - Jogar dados");
@@ -26,7 +26,17 @@ public class Cases{
     }
     
      static void estatisticas (int[] lancamentos, int[] contagem){
-       
+        for (int i=0; i<lancamentos.length; i++){
+            contagem[lancamentos[i]}++;
+        }
+     }
+     static boolean buscaSimples (int[] v, int x){
+        for (int i=0; i<v.length; i++){
+            if (v[i] == x){
+                return true;
+            }
+        }
+        return false;
      }
      public static void main(String[] args){
         scanner = new Scanner(System.in);
@@ -50,6 +60,7 @@ public class Cases{
                 exibeVetor(lancamentos, "Rolam os dados");
                 int[] contagem = new int[7];
                 estatisticas (lancamentos, contagem);
+                exibeVetor(contagem, "Estatisticas de lancamentos");
                 break;
             case 3:
                 System.out.println("Obrigado(a), volte sempre!");
