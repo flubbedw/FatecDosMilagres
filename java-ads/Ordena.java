@@ -23,7 +23,7 @@ public class Ordena {
 			long fim = new Date().getTime();
             exibeVetor(vet1, "Vetor ordenado: ");
 
-			System.out.println("O bubble demorou " + (fim - tempo) + "milissegundos.");
+			System.out.println("O bubble demorou " + (fim - tempo) + " milissegundos.");
 			    
 			}
 		}while (tamanho > 0);
