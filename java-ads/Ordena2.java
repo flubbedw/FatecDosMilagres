@@ -32,3 +32,4 @@ public class Ordena2 {
         } while (n>0);
         sc.close();
     }
+}
