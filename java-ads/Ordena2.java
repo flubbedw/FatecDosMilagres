@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 import java.util.Date;
 
-public class Ordena{
+public class Ordena2 {
 	static Scanner scanner;
 
 	public static void main(String args[]) {
