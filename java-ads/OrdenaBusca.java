@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class OrdenaBusca {
+public class Main {
     static Scanner scanner;
     static Random random;
 
@@ -39,7 +39,7 @@ public class OrdenaBusca {
         int ini=0, fim=v.length-1;
         int cont=0;
         boolean achou=false;
-        while (ini <= fim) {
+        while (ini <= fim && !achou) {
             cont++;
             int meio = (ini + fim)/2;
             if (x == v[meio]){
@@ -51,6 +51,7 @@ public class OrdenaBusca {
                 else fim = meio - 1;
             }
         }
+        System.out.println("busca binaria realizou " + cont + " comparacoes");
         return achou;
     }
     public static void main(String[] args) {
@@ -70,6 +71,12 @@ public class OrdenaBusca {
                     System.out.println("elemento encontrado na busca simples");
                 else 
                     System.out.println("elemento nao encontrado na busca simples");
+                insertion(v);
+                exibeVetor(v, "vetor ordenado");
+                if (buscaBinaria(x, v))
+                    System.out.println("elemento encontrado na busca binaria");
+                else
+                    System.out.println("elemento nao encontrado na busca binaria");
             }
         } while (n>0);
     }
