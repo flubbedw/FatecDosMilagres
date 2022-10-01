@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class OrdenaBusca {
     static Scanner scanner;
     static Random random;
 
