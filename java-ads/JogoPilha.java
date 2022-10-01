@@ -18,6 +18,9 @@ public class JogoPilha {
                     System.out.println ("queenn");
             }
             System.out.println(p);
+            System.out.println("vetor: ");
+            //for  (int i=0; i<p.dados.length; i++)
+            //    System.out.print(p.dados[i] + " ");
         }while (!p.estaVazia());
     }
 }

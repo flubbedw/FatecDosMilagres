@@ -18,8 +18,11 @@ public class Pilhas {
     public int pop () {
         return this.dados[--this.topo];
     }
-    public int topo(){ 
+    public int elementoTopo(){ 
         return this.dados[this.topo-1];
+    }
+    public int tamanhoPilha(){
+        return this.elementoTopo();
     }
     @Override
     public String toString () {
