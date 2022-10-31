@@ -146,10 +146,8 @@ public class Ordena3 {
     }
 
 	static void quicksort (int[] A, int p, int r) {
-        System.out.println("p = " + p + ", r = " + r) ;
         if (p < r) { 
             int q = partition(A, p, r);
-            System.out.println("q = " + q);
             quicksort(A, p, q-1);
             quicksort(A, q+1, r);
         }
