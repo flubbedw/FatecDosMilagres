@@ -127,8 +127,8 @@ public class Ordena3 {
 		}
 	}
 
-	static int partition (int A[], int p, int r) { 
-        int x = A[r]; // O pivô é o último elemento do vetor
+	static int partition (int A[], int p, int r) {
+        int x = A[r];
         int i = p-1;
         for(int j = p; j <= r-1; j++) {
             if (A[j] <= x) {
