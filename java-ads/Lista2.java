@@ -1,7 +1,7 @@
-public class Lista {
+public class Lista2 {
 	private No primeiro; //esta informacão é a referencia do primeiro nó
 	//o contrutor é o padrão, por clareza, vqmos escreve-lo	
-	public Lista()  {
+	public Lista2() {
 		this.primeiro = null;		
 	}
 	//metodos de acesso e modificadores

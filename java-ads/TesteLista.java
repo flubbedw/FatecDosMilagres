@@ -1,6 +1,6 @@
 public class TesteLista {
     public static void main(String[] args) {
-        Lista l = new Lista();
+        Lista2 l = new Lista2();
         l.insereInicio(1);
         l.insereInicio(2);
         l.insereInicio(3);
